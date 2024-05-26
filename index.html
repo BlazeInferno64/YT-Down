@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT-Down | A free open source high quality YouTube Video downloader</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/96913755?v=4" type="image/x-icon"/>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>
+                YT-Down
+            </li>
+            <li>
+                <a href="https://github.com/blazeinferno64">
+                    BlazeInferno64
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Main Body Part -->
+    <div class="main">
+        <p class="info">
+            Download High quality YouTube videos in both mp3 and mp4
+        </p>
+        <div class="bg">
+            <form action="/api/download" id="form" class="form" method="post">
+                <p class="lb">
+                    YT-Down
+                </p>
+                <div class="input">
+                    <label for="link">
+                        Video Link:
+                    </label>
+                    <input type="url" class="url" name="url" id="link" placeholder="Enter video link here..." required/>
+                </div>
+                <div class="input">
+                    <label for="format">
+                        Format:
+                    </label>
+                    <select name="format" class="format" id="format" required>
+                        <option value="mp4">Video (mp4)</option>
+                        <option value="mp3">Audio (mp3)</option>
+                    </select>
+                    <div class="btns">
+                        <button type="submit" class="sub none">
+                            Download
+                        </button>
+                        <button type="reset" class="clear none">
+                            Clear
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Footer Part-->
+    <div class="footer">
+        <p>
+            Copyright &copy; 2024-25 <a href="https://github.com/blazeinferno64">BlazeInferno64</a>
+        </p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "yt-down",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "BlazeInferno64",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.1",
+    "path": "^0.12.7",
+    "ytdl-core": "^4.11.5"
+  }
+}
